@@ -51,42 +51,23 @@
 
     }
 
-    .swiper-slide {
+    .center {
 
-      text-align: center;
+        text-align: center;
 
-      font-size: 18px;
+        position:relative;
 
-      background: #fff;
+        top: 50%;
 
+        left: 50%;
 
+        transform: translate(-50%, -50%);
 
-      /* Center slide text vertically */
+        padding: 20px;
 
-      display: -webkit-box;
+        width:80%;
 
-      display: -ms-flexbox;
-
-      display: -webkit-flex;
-
-      display: flex;
-
-      -webkit-box-pack: center;
-
-      -ms-flex-pack: center;
-
-      -webkit-justify-content: center;
-
-      justify-content: center;
-
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-
-      -webkit-align-items: center;
-
-      align-items: center;
-
-    }
+      }
 
   </style>
 
@@ -102,7 +83,7 @@
 
       <div class="swiper-slide"><h1>Belmont Stakes Celebrates 150th Anniversary</h1></div>
 
-      <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg"><p>These are horses</p></div>
+      <div class="swiper-slide"><div class="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg"><p>These are horses</p></div></div>
       <div class="swiper-slide">Slide 3</div>
 
       <div class="swiper-slide">Slide 4</div>
